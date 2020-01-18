@@ -1,7 +1,7 @@
 Name:           perl-Business-ISBN
 %global cpan_version 2.06
 Version:        %(echo '%{cpan_version}' | tr '_' '.'})
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Perl module to work with International Standard Book Numbers
 
 Group:          Development/Libraries
@@ -61,6 +61,9 @@ make test
 %{_mandir}/man3/*.3*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.06-2
+- Mass rebuild 2013-12-27
+
 * Mon Jun 03 2013 Petr Pisar <ppisar@redhat.com> - 2.06-1
 - 2.06 bump
 
