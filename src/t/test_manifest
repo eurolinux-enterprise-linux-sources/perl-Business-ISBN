@@ -1,0 +1,16 @@
+load.t
+pod.t
+pod_coverage.t
+constants.t
+interface.t
+albania.t
+isbn10.t
+isbn13.t
+valid_isbn_checksum.t
+xisbn10.t
+png_barcode.t
+rt/27107.t
+rt/28843.t
+rt/29089.t
+rt/29292.t
+github/3.t
